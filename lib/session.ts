@@ -2,8 +2,6 @@
 import "server-only"; // Ensures this file only runs on the server side.
 import { cookies } from "next/headers"; // Import the Next.js cookies utility to handle cookies.
 import { SignJWT, jwtVerify } from "jose"; // Import functions from jose to sign and verify JWTs.
-import { redirect } from "next/navigation";
-
 const secretKey = process.env.SESSION_SECRET!; // Get the secret key from environment variables.
 const encodedKey = new TextEncoder().encode(secretKey); // Convert the secret key into a Uint8Array for jose.
 
