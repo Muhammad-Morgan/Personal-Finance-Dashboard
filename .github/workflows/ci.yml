@@ -11,6 +11,9 @@ on:
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: postgresql://user:password@localhost:5432/ci-testing
+      SESSION_SECRET: ci-session-secret
 
     steps:
       - name: Checkout repository
