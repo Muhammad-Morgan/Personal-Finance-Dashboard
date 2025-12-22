@@ -1,7 +1,7 @@
 "use server";
 import { redirect } from "next/navigation";
 import prisma from "./db";
-import { $Enums, Prisma } from "@prisma/client";
+import { Prisma } from "@prisma/client";
 import { getSession } from "./session";
 import { CreateTransaction } from "./zodSchemas";
 import dayjs from "dayjs";
@@ -225,7 +225,7 @@ export async function getSingleTransactionAction(id: string): Promise<{
     amount: number;
     date: Date;
     description: string | null;
-    type: $Enums.TransactionType;
+    type: "EXPENSE" | "INCOME";
     recurring: boolean;
     categoryId: string | null;
   } | null;
