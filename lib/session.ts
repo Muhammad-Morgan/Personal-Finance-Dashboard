@@ -29,8 +29,7 @@ export async function decrypt(token?: string) {
     });
     return payload as unknown as SessionPayload; // Return the decoded payload if verification succeeds.
   } catch {
-    redirect("/login");
-    return null; // If verification fails, return null.
+    return null; // If verification fails, return null and let the caller decide.
   }
 }
 // creates JWT session token tied to a user and valid for 7 days. Stores token in an HTTP-only cookie, so browser automatically sends it on requests. This is the login moment where session is established.
