@@ -9,7 +9,8 @@
     "lint": "eslint --max-warnings=0 --ext .js,.jsx,.ts,.tsx app components lib prisma",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "test:watch": "vitest --watch"
+    "test:watch": "vitest --watch",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

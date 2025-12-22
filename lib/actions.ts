@@ -1,7 +1,7 @@
 "use server";
 import { redirect } from "next/navigation";
 import prisma from "./db";
-import { $Enums, Prisma } from "./generated/prisma";
+import { $Enums, Prisma } from "@prisma/client";
 import { getSession } from "./session";
 import { CreateTransaction } from "./zodSchemas";
 import dayjs from "dayjs";
