@@ -1,7 +1,7 @@
 "use server";
 import { redirect } from "next/navigation";
 import prisma from "./db";
-import { Prisma } from "@prisma/client";
+import { Prisma } from "@/lib/generated/prisma/client";
 import { getSession } from "./session";
 import { CreateTransaction } from "./zodSchemas";
 import dayjs from "dayjs";
