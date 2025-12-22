@@ -38,7 +38,8 @@ const LoginForm = () => {
     },
     onSuccess: (data) => {
       toast.success(data?.message ?? "Logged in successfully");
-      router.push("/dashboard");
+      router.replace("/dashboard");
+      router.refresh();
     },
     onError: (error: Error) => {
       toast.error(error.message);
