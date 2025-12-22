@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum TransactionType {
+  EXPENSE
+  INCOME
+}
+
+// ---- USER MODEL ----
+model User {
+  // Primary key
+  id    String @id @default(cuid())
+  name  String
+  // Login identifier
+  email String @unique
+
+  // Store HASHED password (never plain text)
+  password String
+
+  // RELATION (one-to-many):
+  // A user can have many categories.
+  categories Category[]
+
+  // RELATION (one-to-many):
+  // A user can have many transactions.
+  transactions Transaction[]
+
+  // Auditing fields (recommended)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ---- CATEGORY MODEL ----
+model Category {
+  // Primary key
+  id String @id @default(cuid())
+
+  // Category name (e.g. Groceries, Rent)
+  name String
+
+  // RELATION FK (required):
+  // This category belongs to exactly one user.
+  userId String
+
+  // RELATION (many-to-one):
+  // Links Category -> User using userId as the FK.
+  user User @relation(fields: [userId], references: [id])
+
+  // RELATION (one-to-many):
+  // A category can be referenced by many transactions.
+  transactions Transaction[]
+
+  // Auditing fields
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Constraint:
+  // Same user can't have two categories with the same name.
+  @@unique([userId, name])
+}
+
+// ---- TRANSACTION MODEL ----
+model Transaction {
+  // Primary key (uuid is fine; you can also use cuid for consistency)
+  id String @id @default(cuid())
+
+  // Money (use explicit precision for Postgres)
+  amount Float
+
+  // When the transaction happened (user-provided)
+  date DateTime
+
+  // Optional note
+  description String?
+
+  // INCOME or EXPENSE (single value, not an array)
+  type TransactionType
+
+  // Optional recurring flag
+  recurring Boolean @default(false)
+
+  // RELATION FK (required):
+  // This transaction belongs to exactly one user.
+  userId String
+
+  // RELATION (many-to-one):
+  // Links Transaction -> User using userId as the FK.
+  user User @relation(fields: [userId], references: [id])
+
+  // RELATION FK (optional):
+  // A transaction may or may not have a category.
+  categoryId String?
+
+  // RELATION (many-to-one, optional):
+  // Links Transaction -> Category using categoryId as the optional FK.
+  category Category? @relation(fields: [categoryId], references: [id])
+
+  // Auditing fields (recommended)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Helpful indexes for common queries (dashboard / filtering)
+  @@index([userId, date])
+  @@index([categoryId])
+}

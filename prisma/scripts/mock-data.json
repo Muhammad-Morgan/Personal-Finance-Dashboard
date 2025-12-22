@@ -1,0 +1,802 @@
+[
+  {
+    "amount": 3540,
+    "date": "2025-03-14T10:53:57.050Z",
+    "category": "Gift Received",
+    "type": "INCOME",
+    "description": "Cash gift received",
+    "recurring": true
+  },
+  {
+    "amount": 327,
+    "date": "2025-01-01T16:58:02.439Z",
+    "category": "Phone & Internet",
+    "type": "EXPENSE",
+    "description": "Mobile plan",
+    "recurring": false
+  },
+  {
+    "amount": 240,
+    "date": "2025-04-22T21:39:38.168Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Hotel booking",
+    "recurring": false
+  },
+  {
+    "amount": 660,
+    "date": "2025-03-12T18:07:28.507Z",
+    "category": "Shopping",
+    "type": "EXPENSE",
+    "description": "New shoes",
+    "recurring": false
+  },
+  {
+    "amount": 492,
+    "date": "2025-01-02T10:12:18.907Z",
+    "category": "Health",
+    "type": "EXPENSE",
+    "description": "Pharmacy items",
+    "recurring": true
+  },
+  {
+    "amount": 285,
+    "date": "2025-05-05T08:40:36.125Z",
+    "category": "Phone & Internet",
+    "type": "EXPENSE",
+    "description": "Mobile plan",
+    "recurring": true
+  },
+  {
+    "amount": 126,
+    "date": "2024-12-31T02:31:29.613Z",
+    "category": "Phone & Internet",
+    "type": "EXPENSE",
+    "description": "Mobile plan",
+    "recurring": true
+  },
+  {
+    "amount": 342,
+    "date": "2025-06-02T19:17:48.605Z",
+    "category": "Coffee",
+    "type": "EXPENSE",
+    "description": "Cafe visit",
+    "recurring": true
+  },
+  {
+    "amount": 564,
+    "date": "2025-01-31T05:18:55.760Z",
+    "category": "Transport",
+    "type": "EXPENSE",
+    "description": "Fuel refill",
+    "recurring": true
+  },
+  {
+    "amount": 261,
+    "date": "2025-04-23T12:15:43.294Z",
+    "category": "Utilities",
+    "type": "EXPENSE",
+    "description": "Gas bill",
+    "recurring": false
+  },
+  {
+    "amount": 398,
+    "date": "2025-10-04T22:05:49.793Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Workshop ticket",
+    "recurring": false
+  },
+  {
+    "amount": 253,
+    "date": "2025-09-15T17:48:47.304Z",
+    "category": "Phone & Internet",
+    "type": "EXPENSE",
+    "description": "Internet bill",
+    "recurring": true
+  },
+  {
+    "amount": 1956,
+    "date": "2025-07-04T08:28:10.053Z",
+    "category": "Gift Received",
+    "type": "INCOME",
+    "description": "Cash gift received",
+    "recurring": true
+  },
+  {
+    "amount": 543,
+    "date": "2025-07-08T11:48:42.961Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Workshop ticket",
+    "recurring": false
+  },
+  {
+    "amount": 597,
+    "date": "2025-07-08T06:38:58.616Z",
+    "category": "Entertainment",
+    "type": "EXPENSE",
+    "description": "Movie tickets",
+    "recurring": true
+  },
+  {
+    "amount": 110,
+    "date": "2025-10-24T19:14:08.433Z",
+    "category": "Dining",
+    "type": "EXPENSE",
+    "description": "Dinner out",
+    "recurring": false
+  },
+  {
+    "amount": 790,
+    "date": "2025-11-19T10:49:47.556Z",
+    "category": "Rent",
+    "type": "EXPENSE",
+    "description": "Rent transfer",
+    "recurring": false
+  },
+  {
+    "amount": 788,
+    "date": "2025-09-11T06:28:34.659Z",
+    "category": "Investment",
+    "type": "INCOME",
+    "description": "Investment return",
+    "recurring": false
+  },
+  {
+    "amount": 176,
+    "date": "2025-11-20T19:15:23.388Z",
+    "category": "Groceries",
+    "type": "EXPENSE",
+    "description": "Supermarket run",
+    "recurring": false
+  },
+  {
+    "amount": 3457,
+    "date": "2025-08-12T00:54:59.812Z",
+    "category": "Freelance",
+    "type": "INCOME",
+    "description": "Client project payment",
+    "recurring": true
+  },
+  {
+    "amount": 1527,
+    "date": "2025-11-12T06:22:08.917Z",
+    "category": "Freelance",
+    "type": "INCOME",
+    "description": "Freelance invoice paid",
+    "recurring": false
+  },
+  {
+    "amount": 682,
+    "date": "2025-08-31T08:48:42.512Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Online course fee",
+    "recurring": true
+  },
+  {
+    "amount": 464,
+    "date": "2025-12-11T12:57:33.118Z",
+    "category": "Subscriptions",
+    "type": "EXPENSE",
+    "description": "Streaming subscription",
+    "recurring": false
+  },
+  {
+    "amount": 325,
+    "date": "2025-09-11T04:38:31.251Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Online course fee",
+    "recurring": true
+  },
+  {
+    "amount": 3789,
+    "date": "2025-09-12T15:48:34.023Z",
+    "category": "Bonus",
+    "type": "INCOME",
+    "description": "Team bonus received",
+    "recurring": false
+  },
+  {
+    "amount": 487,
+    "date": "2025-08-08T02:05:11.293Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Books purchase",
+    "recurring": true
+  },
+  {
+    "amount": 151,
+    "date": "2025-07-16T16:22:06.015Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Hotel booking",
+    "recurring": false
+  },
+  {
+    "amount": 435,
+    "date": "2025-10-19T01:14:56.853Z",
+    "category": "Subscriptions",
+    "type": "EXPENSE",
+    "description": "App subscription",
+    "recurring": true
+  },
+  {
+    "amount": 221,
+    "date": "2025-08-01T00:16:28.796Z",
+    "category": "Coffee",
+    "type": "EXPENSE",
+    "description": "Cafe visit",
+    "recurring": true
+  },
+  {
+    "amount": 256,
+    "date": "2025-08-05T04:47:51.092Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Flight ticket",
+    "recurring": true
+  },
+  {
+    "amount": 243,
+    "date": "2025-12-10T17:16:10.839Z",
+    "category": "Utilities",
+    "type": "EXPENSE",
+    "description": "Electricity bill",
+    "recurring": true
+  },
+  {
+    "amount": 387,
+    "date": "2025-11-20T11:43:45.396Z",
+    "category": "Rent",
+    "type": "EXPENSE",
+    "description": "Monthly rent payment",
+    "recurring": true
+  },
+  {
+    "amount": 2118,
+    "date": "2025-08-28T06:49:42.306Z",
+    "category": "Salary",
+    "type": "INCOME",
+    "description": "Monthly salary",
+    "recurring": true
+  },
+  {
+    "amount": 220,
+    "date": "2025-10-23T09:08:13.602Z",
+    "category": "Utilities",
+    "type": "EXPENSE",
+    "description": "Utility payment",
+    "recurring": true
+  },
+  {
+    "amount": 560,
+    "date": "2025-09-04T15:21:48.935Z",
+    "category": "Groceries",
+    "type": "EXPENSE",
+    "description": "Snacks and household items",
+    "recurring": true
+  },
+  {
+    "amount": 3822,
+    "date": "2025-11-17T20:12:32.718Z",
+    "category": "Freelance",
+    "type": "INCOME",
+    "description": "Freelance invoice paid",
+    "recurring": false
+  },
+  {
+    "amount": 125,
+    "date": "2025-10-10T11:37:36.555Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Workshop ticket",
+    "recurring": false
+  },
+  {
+    "amount": 599,
+    "date": "2025-10-17T04:39:15.903Z",
+    "category": "Subscriptions",
+    "type": "EXPENSE",
+    "description": "Monthly service fee",
+    "recurring": false
+  },
+  {
+    "amount": 749,
+    "date": "2025-09-11T17:31:39.248Z",
+    "category": "Gifts",
+    "type": "EXPENSE",
+    "description": "Gift for a friend",
+    "recurring": false
+  },
+  {
+    "amount": 95,
+    "date": "2025-09-10T13:28:07.832Z",
+    "category": "Shopping",
+    "type": "EXPENSE",
+    "description": "Clothes purchase",
+    "recurring": false
+  },
+  {
+    "amount": 2012,
+    "date": "2025-11-22T10:51:34.419Z",
+    "category": "Gift Received",
+    "type": "INCOME",
+    "description": "Cash gift received",
+    "recurring": true
+  },
+  {
+    "amount": 10,
+    "date": "2025-10-30T22:16:58.645Z",
+    "category": "Subscriptions",
+    "type": "EXPENSE",
+    "description": "App subscription",
+    "recurring": true
+  },
+  {
+    "amount": 261,
+    "date": "2025-07-25T19:20:22.382Z",
+    "category": "Entertainment",
+    "type": "EXPENSE",
+    "description": "Movie tickets",
+    "recurring": false
+  },
+  {
+    "amount": 711,
+    "date": "2025-11-06T18:39:57.099Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Travel expenses",
+    "recurring": false
+  },
+  {
+    "amount": 486,
+    "date": "2025-09-13T03:08:28.735Z",
+    "category": "Transport",
+    "type": "EXPENSE",
+    "description": "Taxi fare",
+    "recurring": true
+  },
+  {
+    "amount": 562,
+    "date": "2025-09-04T05:20:42.553Z",
+    "category": "Utilities",
+    "type": "EXPENSE",
+    "description": "Electricity bill",
+    "recurring": true
+  },
+  {
+    "amount": 1553,
+    "date": "2025-11-28T16:05:40.231Z",
+    "category": "Refund",
+    "type": "INCOME",
+    "description": "Refund from store",
+    "recurring": false
+  },
+  {
+    "amount": 145,
+    "date": "2025-11-19T17:10:17.967Z",
+    "category": "Gifts",
+    "type": "EXPENSE",
+    "description": "Birthday present",
+    "recurring": false
+  },
+  {
+    "amount": 750,
+    "date": "2025-06-28T07:11:55.115Z",
+    "category": "Transport",
+    "type": "EXPENSE",
+    "description": "Fuel refill",
+    "recurring": false
+  },
+  {
+    "amount": 511,
+    "date": "2025-08-17T00:01:12.574Z",
+    "category": "Groceries",
+    "type": "EXPENSE",
+    "description": "Supermarket run",
+    "recurring": true
+  },
+  {
+    "amount": 4961,
+    "date": "2025-11-12T18:46:14.835Z",
+    "category": "Salary",
+    "type": "INCOME",
+    "description": "Salary payment received",
+    "recurring": false
+  },
+  {
+    "amount": 320,
+    "date": "2025-09-11T15:33:30.635Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Flight ticket",
+    "recurring": false
+  },
+  {
+    "amount": 665,
+    "date": "2025-08-09T22:18:05.279Z",
+    "category": "Gifts",
+    "type": "EXPENSE",
+    "description": "Gift for a friend",
+    "recurring": true
+  },
+  {
+    "amount": 3620,
+    "date": "2025-09-15T08:53:32.788Z",
+    "category": "Freelance",
+    "type": "INCOME",
+    "description": "Freelance invoice paid",
+    "recurring": false
+  },
+  {
+    "amount": 512,
+    "date": "2025-06-25T20:48:55.623Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Flight ticket",
+    "recurring": false
+  },
+  {
+    "amount": 346,
+    "date": "2025-08-01T03:29:45.920Z",
+    "category": "Entertainment",
+    "type": "EXPENSE",
+    "description": "Movie tickets",
+    "recurring": true
+  },
+  {
+    "amount": 305,
+    "date": "2025-09-09T11:42:02.057Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Flight ticket",
+    "recurring": false
+  },
+  {
+    "amount": 327,
+    "date": "2025-08-04T16:48:27.349Z",
+    "category": "Shopping",
+    "type": "EXPENSE",
+    "description": "Online shopping order",
+    "recurring": false
+  },
+  {
+    "amount": 523,
+    "date": "2025-07-30T06:10:38.465Z",
+    "category": "Shopping",
+    "type": "EXPENSE",
+    "description": "New shoes",
+    "recurring": false
+  },
+  {
+    "amount": 275,
+    "date": "2025-09-13T21:31:43.032Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Hotel booking",
+    "recurring": true
+  },
+  {
+    "amount": 36,
+    "date": "2026-05-16T23:12:37.585Z",
+    "category": "Coffee",
+    "type": "EXPENSE",
+    "description": "Coffee and pastry",
+    "recurring": true
+  },
+  {
+    "amount": 134,
+    "date": "2026-06-10T20:45:43.364Z",
+    "category": "Health",
+    "type": "EXPENSE",
+    "description": "Medical checkup",
+    "recurring": true
+  },
+  {
+    "amount": 1483,
+    "date": "2026-06-02T06:59:18.086Z",
+    "category": "Refund",
+    "type": "INCOME",
+    "description": "Refund from store",
+    "recurring": true
+  },
+  {
+    "amount": 523,
+    "date": "2026-02-09T23:33:58.788Z",
+    "category": "Groceries",
+    "type": "EXPENSE",
+    "description": "Fresh produce and essentials",
+    "recurring": false
+  },
+  {
+    "amount": 513,
+    "date": "2026-01-10T12:53:34.462Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Flight ticket",
+    "recurring": false
+  },
+  {
+    "amount": 3861,
+    "date": "2026-01-06T17:14:59.748Z",
+    "category": "Investment",
+    "type": "INCOME",
+    "description": "Dividend payout",
+    "recurring": false
+  },
+  {
+    "amount": 2573,
+    "date": "2026-05-17T22:55:21.963Z",
+    "category": "Freelance",
+    "type": "INCOME",
+    "description": "Client project payment",
+    "recurring": false
+  },
+  {
+    "amount": 219,
+    "date": "2026-05-20T15:21:21.521Z",
+    "category": "Health",
+    "type": "EXPENSE",
+    "description": "Medical checkup",
+    "recurring": false
+  },
+  {
+    "amount": 688,
+    "date": "2026-01-31T15:37:59.475Z",
+    "category": "Subscriptions",
+    "type": "EXPENSE",
+    "description": "Streaming subscription",
+    "recurring": false
+  },
+  {
+    "amount": 205,
+    "date": "2026-05-29T13:42:18.443Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Workshop ticket",
+    "recurring": false
+  },
+  {
+    "amount": 4073,
+    "date": "2026-04-09T19:46:47.013Z",
+    "category": "Freelance",
+    "type": "INCOME",
+    "description": "Freelance invoice paid",
+    "recurring": false
+  },
+  {
+    "amount": 72,
+    "date": "2026-03-01T03:57:26.299Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Flight ticket",
+    "recurring": true
+  },
+  {
+    "amount": 741,
+    "date": "2026-02-01T06:16:12.397Z",
+    "category": "Subscriptions",
+    "type": "EXPENSE",
+    "description": "Streaming subscription",
+    "recurring": true
+  },
+  {
+    "amount": 4114,
+    "date": "2026-01-13T10:16:41.502Z",
+    "category": "Refund",
+    "type": "INCOME",
+    "description": "Refund from store",
+    "recurring": false
+  },
+  {
+    "amount": 43,
+    "date": "2026-05-07T07:58:50.451Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Flight ticket",
+    "recurring": true
+  },
+  {
+    "amount": 773,
+    "date": "2026-01-26T10:25:39.414Z",
+    "category": "Phone & Internet",
+    "type": "EXPENSE",
+    "description": "Internet bill",
+    "recurring": false
+  },
+  {
+    "amount": 49,
+    "date": "2026-03-27T17:33:36.197Z",
+    "category": "Health",
+    "type": "EXPENSE",
+    "description": "Medical checkup",
+    "recurring": true
+  },
+  {
+    "amount": 484,
+    "date": "2026-05-21T13:31:38.194Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Workshop ticket",
+    "recurring": false
+  },
+  {
+    "amount": 406,
+    "date": "2026-04-03T15:18:59.579Z",
+    "category": "Health",
+    "type": "EXPENSE",
+    "description": "Pharmacy items",
+    "recurring": true
+  },
+  {
+    "amount": 27,
+    "date": "2026-06-03T20:35:47.470Z",
+    "category": "Utilities",
+    "type": "EXPENSE",
+    "description": "Utility payment",
+    "recurring": true
+  },
+  {
+    "amount": 682,
+    "date": "2026-02-17T05:15:48.085Z",
+    "category": "Gifts",
+    "type": "EXPENSE",
+    "description": "Gift for a friend",
+    "recurring": true
+  },
+  {
+    "amount": 686,
+    "date": "2026-04-02T21:13:11.247Z",
+    "category": "Entertainment",
+    "type": "EXPENSE",
+    "description": "Game purchase",
+    "recurring": false
+  },
+  {
+    "amount": 326,
+    "date": "2026-04-23T10:23:31.746Z",
+    "category": "Groceries",
+    "type": "EXPENSE",
+    "description": "Fresh produce and essentials",
+    "recurring": false
+  },
+  {
+    "amount": 567,
+    "date": "2026-06-16T22:22:40.316Z",
+    "category": "Coffee",
+    "type": "EXPENSE",
+    "description": "Cafe visit",
+    "recurring": false
+  },
+  {
+    "amount": 582,
+    "date": "2026-05-31T02:10:47.021Z",
+    "category": "Salary",
+    "type": "INCOME",
+    "description": "Salary payment received",
+    "recurring": true
+  },
+  {
+    "amount": 3161,
+    "date": "2026-01-05T05:31:59.239Z",
+    "category": "Bonus",
+    "type": "INCOME",
+    "description": "Performance bonus",
+    "recurring": false
+  },
+  {
+    "amount": 48,
+    "date": "2026-03-03T07:23:15.555Z",
+    "category": "Travel",
+    "type": "EXPENSE",
+    "description": "Travel expenses",
+    "recurring": false
+  },
+  {
+    "amount": 1566,
+    "date": "2026-05-06T11:55:18.779Z",
+    "category": "Refund",
+    "type": "INCOME",
+    "description": "Refund from store",
+    "recurring": true
+  },
+  {
+    "amount": 204,
+    "date": "2026-01-04T22:39:57.255Z",
+    "category": "Entertainment",
+    "type": "EXPENSE",
+    "description": "Movie tickets",
+    "recurring": true
+  },
+  {
+    "amount": 3469,
+    "date": "2026-05-22T07:37:11.574Z",
+    "category": "Refund",
+    "type": "INCOME",
+    "description": "Service refund received",
+    "recurring": true
+  },
+  {
+    "amount": 408,
+    "date": "2025-12-31T19:59:40.856Z",
+    "category": "Rent",
+    "type": "EXPENSE",
+    "description": "Rent transfer",
+    "recurring": true
+  },
+  {
+    "amount": 772,
+    "date": "2026-04-18T01:47:10.664Z",
+    "category": "Shopping",
+    "type": "EXPENSE",
+    "description": "New shoes",
+    "recurring": false
+  },
+  {
+    "amount": 3717,
+    "date": "2026-03-02T07:11:09.928Z",
+    "category": "Salary",
+    "type": "INCOME",
+    "description": "Monthly salary",
+    "recurring": false
+  },
+  {
+    "amount": 2349,
+    "date": "2026-04-17T15:29:14.614Z",
+    "category": "Gift Received",
+    "type": "INCOME",
+    "description": "Cash gift received",
+    "recurring": false
+  },
+  {
+    "amount": 735,
+    "date": "2026-05-07T06:56:37.685Z",
+    "category": "Groceries",
+    "type": "EXPENSE",
+    "description": "Weekly groceries",
+    "recurring": false
+  },
+  {
+    "amount": 245,
+    "date": "2026-05-27T16:44:10.127Z",
+    "category": "Gifts",
+    "type": "EXPENSE",
+    "description": "Birthday present",
+    "recurring": false
+  },
+  {
+    "amount": 341,
+    "date": "2026-02-09T03:20:42.779Z",
+    "category": "Health",
+    "type": "EXPENSE",
+    "description": "Medical checkup",
+    "recurring": false
+  },
+  {
+    "amount": 491,
+    "date": "2026-06-07T07:40:26.697Z",
+    "category": "Gifts",
+    "type": "EXPENSE",
+    "description": "Birthday present",
+    "recurring": true
+  },
+  {
+    "amount": 367,
+    "date": "2026-04-06T04:53:25.742Z",
+    "category": "Education",
+    "type": "EXPENSE",
+    "description": "Online course fee",
+    "recurring": true
+  },
+  {
+    "amount": 25,
+    "date": "2026-04-28T22:37:14.745Z",
+    "category": "Gifts",
+    "type": "EXPENSE",
+    "description": "Gift for a friend",
+    "recurring": true
+  }
+]
