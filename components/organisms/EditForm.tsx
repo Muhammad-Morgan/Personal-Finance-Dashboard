@@ -84,7 +84,7 @@ const EditForm = ({ transactionId }: { transactionId: string }) => {
         className="bg-muted p-8 rounded"
       >
         <h2 className="capitalize font-semibold text-2xl mb-6">
-          add transaction
+          Edit transaction
         </h2>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 items-center lg:gap-y-10">
           <CustomFormField

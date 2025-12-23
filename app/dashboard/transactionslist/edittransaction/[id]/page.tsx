@@ -13,7 +13,7 @@ type PageProps = {
 };
 const EditTransactionPage = async ({ params }: PageProps) => {
   const queryClient = new QueryClient();
-  const { id } = params;
+  const { id } = await params;
   await queryClient.prefetchQuery({
     queryKey: ["transaction", id],
     queryFn: () => getSingleTransactionAction(id),
